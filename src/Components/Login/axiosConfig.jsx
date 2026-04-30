@@ -1,7 +1,7 @@
   import axios from "axios";
 
   const instance = axios.create({
-    baseURL: "http://localhost:9090", 
+    baseURL: "https://backend-campaign-management-production.up.railway.app", 
   });
 
   // Add a request interceptor to include the token
